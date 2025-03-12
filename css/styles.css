@@ -13,11 +13,14 @@ img {
     display: block;
     max-width: 100%;}
 /* сброс стиилей списков*/
+.
+
 ul, ol {list-style: none;}
 a {text-decoration: none;}
 /*font-family: "Raleway",sans-serif;*/
 
-/*начало   HEADERA -----------------------от сюда с лого*/
+/*начало   HEADERA -----------------------------------------------от сюда с лого*/
+
 .page-header {
     background-color: #fff;
     padding: 10px 0;
@@ -30,7 +33,9 @@ a {text-decoration: none;}
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;  }
+    align-items: center;
+    
+}
 
 .header-nav {
     display: flex;
@@ -48,7 +53,8 @@ a {text-decoration: none;}
 }
 
 .logo-part {
-    color: #2e2f42;}
+    color: #2e2f42;
+}
 
 .nav-list {
     display: flex;
@@ -69,52 +75,75 @@ a {text-decoration: none;}
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-    color: #404bbf;}
+    color: #404bbf;
+}
 
 .contacts-list {
     display: flex;
     gap: 40px;}
-
 .contacts-items {
     display: inline-block;}
 .contacts-link {
-    color: #2e2f42;}
-
-/* tut pervaya secciya----------------------------------- idet*/
-.section-one{
-    background-color: #2e2f42;
-    
+    color: #2e2f42;
 }
-.section-title{
+
+/*  SECTION-1------ SECTION-1----  SECTION-1 ----- SECTION-1 ----- SECTION-1 --- SECTION-1 ----- SECTION-1*/
+.section-one {
+    background-color: #2e2f42;
+    padding: 188px 0;
+    /* отступы сверху и снизу */
+}
+
+.container {
+    width: 1158px;
+    /* или можно оставить 100% для гибкости */
+    margin: 0 auto;
+    /* центрирует контейнер */
+    padding: 0 15px;
+    /* отступы по бокам */
+}
+
+.section-title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    }
-.order-serv-btn{
+    max-width: 496px;
+    /* ограничение ширины заголовка */
+    margin: 0 auto;
+    /* центрируем заголовок */
+}
+
+.order-serv-btn {
+    display: block;
+    min-width: 169px;
+    /* минимальная ширина кнопки */
+    height: 56px;
+    /* высота кнопки */
     background-color: #4d5ae5;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    border: none;
+    /* убираем стандартное оформление */
+    border-radius: 4px;
+    /* заокругление углов */
     cursor: pointer;
-    font-family: "Roboto", sans-serif;
-    
-    
-    
+    margin: 20px auto 0;
+    /* отступ сверху и снизу, центрирование кнопки */
 }
 
-.order-serv-btn:hover {
-    background-color: #404bbf;
-}
+.order-serv-btn:hover,
 .order-serv-btn:focus {
     background-color: #404bbf;
+    /* изменяем цвет фона на hover и focus */
+}
 }
 
-
-
+/*   SECTION 2 -------------------------------------SECTION 2*/
 
 .title {font-weight: 500; 
         font-size:20px;
