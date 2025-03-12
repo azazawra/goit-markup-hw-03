@@ -17,6 +17,36 @@ a {text-decoration: none;}
         color: #4d5ae5;
         font-family: "Raleway", sans-serif;
 }
+
+.page-header{background-color: #fff;
+padding:10px;
+}
+
+.header-container{
+    display:flex;
+    align-items:center ;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+
+}
+.nav-list{
+    display: flex;
+   gap:40px;
+}
+
+.contacts-list{
+    display: flex;
+    gap:40px;
+    list-style: none ;
+
+}
+
+
+
 .header-logo .logo-part {color:#2e2f42;}
 .header-logo {margin-right: 76px;}
 .nav-link {
