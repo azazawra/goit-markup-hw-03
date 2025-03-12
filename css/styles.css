@@ -19,29 +19,23 @@ a {text-decoration: none;}
 
 /*начало от сюда с лого*/
 
-.logo{
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-        font-family: "Raleway", sans-serif;
-}
-
 .page-header {
     background-color: #fff;
     padding: 10px 0;
     border-bottom: 1px solid #e7e9fc;
+    /* Нижняя граница хедера */
 }
 
-.container {
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1158px;
-    padding: 0 15px;
+    /* Ширина контейнера */
     margin: 0 auto;
+    /* Центрирование контейнера */
+    padding: 0 15px;
+    /* Внутренние отступы */
 }
 
 .header-nav {
@@ -51,11 +45,13 @@ a {text-decoration: none;}
 
 .header-logo {
     margin-right: 76px;
+    /* Отступ между логотипом и меню */
 }
 
 .nav-list {
     display: flex;
     gap: 40px;
+    /* Отступы между пунктами меню */
 }
 
 .nav-item {
@@ -69,6 +65,7 @@ a {text-decoration: none;}
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    /* Отступы внутри ссылок */
 }
 
 .nav-link:hover,
@@ -79,6 +76,7 @@ a {text-decoration: none;}
 .contacts-list {
     display: flex;
     gap: 40px;
+    /* Отступы между контактами */
 }
 
 .contacts-item {
@@ -93,6 +91,7 @@ a {text-decoration: none;}
     color: #2e2f42;
 }
 
+/* tut pervaya secciya idet*/
 .section-one{
     background-color: #2e2f42;
     
