@@ -3,7 +3,18 @@ body {
 color :#434455;
 background-color: #fff;
 }
+/* Сброс стилей*/
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+/* img to display: block*/
+img {
+    display: block;
+    max-width: 100%;
+}
 
+/* сброс стиилей списков*/
 ul, ol {list-style: none;}
 a {text-decoration: none;}
 
@@ -17,6 +28,8 @@ a {text-decoration: none;}
         color: #4d5ae5;
         font-family: "Raleway", sans-serif;
 }
+
+
 
 .page-header{background-color: #fff;
 padding:10px;
