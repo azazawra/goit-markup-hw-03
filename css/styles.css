@@ -169,8 +169,11 @@ a {text-decoration: none;}
      padding: 0;
      margin: 0;
  }
+
+
 .feature-item {
-flex-basis: calc((100% - 3 * 24px) / 4); / * 3 * 24px;
+ flex-basis: calc((100% - 3 * 24px) / 4);
+    
 }
 
 .feature-title {
@@ -182,6 +185,7 @@ flex-basis: calc((100% - 3 * 24px) / 4); / * 3 * 24px;
         margin-bottom: 8px;}
 
 .feature-text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
