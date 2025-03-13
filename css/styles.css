@@ -145,12 +145,10 @@ a {text-decoration: none;}
         border-radius: 4px;
         cursor: pointer;
     }
-
 .order-serv-btn:hover,
 .order-serv-btn:focus {
     background-color: #404bbf;
 }
-
 
 /*   SECTION 2 -----------------------------------------------------------------------SECTION 2----------------------*/
 
@@ -169,13 +167,9 @@ a {text-decoration: none;}
      padding: 0;
      margin: 0;
  }
-
-
 .feature-item {
- flex-basis: calc((100% - 3 * 24px) / 4);
-    
+ flex-basis: calc((100% - 3 * 24px) / 4);  
 }
-
 .feature-title {
         font-weight: 700;
         font-size: 20px;
@@ -204,8 +198,6 @@ a {text-decoration: none;}
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-
 /*-----------------------------------------------------section3------------------------------*/
 
 .team {
@@ -270,7 +262,6 @@ a {text-decoration: none;}
     
 /*--------------------------------------------------------section4----------------------------------------------------*/
 
-
 #section-4 {
     padding: 120px 0;
 }
@@ -333,23 +324,16 @@ a {text-decoration: none;}
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-
-
 /*--------------------------------------------------footer-----------------------------*/
-    .contacts {font-style: normal;}     
-
+.contacts {font-style: normal;}     
 .contacts-link {
      display:inline-block;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-        text-decoration: none;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
+     text-decoration: none;
 }
-
-
-
 .contacts-link:hover,
 .contacts-link:focus {color: #404bbf;}
 
@@ -357,13 +341,10 @@ a {text-decoration: none;}
     padding: 100px 0;
     background-color: #2e2f42;
 }
-
-
 .container {
     margin: 0 auto;
     padding: 0 15px;
    }
-
 
 .footer-logo {
     display: inline-block;
@@ -375,12 +356,10 @@ a {text-decoration: none;}
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
-  
-}
+  }
 .logo-part {
     color: #f4f4fd;
 }
-
 .footer-text {
     max-width: 264px;
     color: #f4f4fd;
@@ -392,11 +371,9 @@ a {text-decoration: none;}
     flex-direction: column;
     align-items: flex-start;
   }
-
 .footer-logo {
     display: block;
    }
-
 .footer-text {
     max-width: 264px;
     color: #f4f4fd;
