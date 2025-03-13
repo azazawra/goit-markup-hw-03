@@ -352,17 +352,41 @@ a {text-decoration: none;}
 
 .contacts-link:hover,
 .contacts-link:focus {color: #404bbf;}
-.page-footer{
+
+.page-footer {
+    padding: 100px 0;
     background-color: #2e2f42;
 }
 
-.footer-logo .logo-part {
+
+.container {
+   
+    /* Можно изменить, если у вас другое ограничение */
+    margin: 0 auto;
+    padding: 0 15px;
+   
+}
+
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+  
+}
+.logo-part {
     color: #f4f4fd;
 }
-.footer-logo {margin-bottom: 16px;}
 
-.footer-text {font-weight: 400;
+.footer-text {
+    max-width: 264px;
+    color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;}
+}
