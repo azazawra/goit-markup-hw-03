@@ -213,22 +213,24 @@ a {text-decoration: none;}
     padding: 96px 0;
     text-align: center;
 }
-.team-container
+.container  {
     display: flex;
     flex-direction:colum;
     align-items: center;
-    padding: 96px 0;
+    padding: 120px 0;
     text-align: center;
+    
+    
 }
 .team-title {
+    margin-bottom: 72px
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 40px;
-}
+    width: calc((100% - 72px) / 4    }
 
 .team-list {
     display: flex;
