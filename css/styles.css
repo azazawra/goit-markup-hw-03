@@ -221,7 +221,7 @@ a {text-decoration: none;}
 }
 
 .team-title {
-    margin-bottom:8 px; 
+    margin-bottom:72 px; 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -231,7 +231,9 @@ a {text-decoration: none;}
     width: 100%;
     text-align: center;
 }
-
+.team-name {
+    margin-bottom: 8px;
+}
 
 .team-item {
     background-color: #ffffff;
