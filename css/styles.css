@@ -270,6 +270,24 @@ a {text-decoration: none;}
     
 /*--------------------------------------------------------section4----------------------------------------------------*/
 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.portfolio-item{
+    column-gap: 24px;
+    text-align: center;
+}
+.portfolio-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .portfolio {
     font-size: 36px;
     line-height: 1.11;
@@ -295,9 +313,15 @@ a {text-decoration: none;}
 }    
 
 .portfolio-list{
-         list-style: none;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 24px;
+padding: 32px 16px
         
 }
+
+/*--------------------------------------------------footer-----------------------------*/
     .contacts {font-style: normal;}     
 
 .contacts-link {
@@ -306,6 +330,9 @@ a {text-decoration: none;}
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+
+
 .contacts-link:hover,
 .contacts-link:focus {color: #404bbf;}
 .page-footer{
