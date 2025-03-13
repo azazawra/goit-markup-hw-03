@@ -235,6 +235,10 @@ a {text-decoration: none;}
     margin-bottom: 8px;
 }
 
+.team-info{
+    padding-top:32px;
+    padding-bottom:32px;
+}
 .team-item {
     background-color: #ffffff;
     text-align: center;
