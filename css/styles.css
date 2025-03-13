@@ -28,9 +28,10 @@ a {text-decoration: none;}
     width: 100%;
    
 }
-.container-header{width: 1440px;
+.container-header{width: 1158px;
     height: 72px;
     display: flex;
+    padding: 0 15px
 }
 .header-nav {
     display: flex;
