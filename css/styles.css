@@ -210,27 +210,29 @@ a {text-decoration: none;}
 
 .team {
     background-color: #f4f4fd;
-    padding: 96px 0;
-    text-align: center;
-}
-.container  {
-    display: flex;
-    flex-direction:colum;
-    align-items: center;
     padding: 120px 0;
     text-align: center;
-    
-    
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+   
+}
+
 .team-title {
-    margin-bottom: 72px
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    width: calc((100% - 72px) / 4    }
+    width: 100%;
+    text-align: center;
+    }
 
 .team-list {
     display: flex;
@@ -250,6 +252,9 @@ a {text-decoration: none;}
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
+.team-info {
+    padding: 32px 0;
+   }
 
 .team-name {
     font-weight: 500;
@@ -257,7 +262,9 @@ a {text-decoration: none;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    
 }
 
 .team-role {
@@ -266,6 +273,8 @@ a {text-decoration: none;}
     letter-spacing: 0.02em;
     color: #434455;
     margin-top: 4px;
+    text-align: center;
+   
 }
 
 /*--------------------------------------------------------section4----------------------------------------------------*/
