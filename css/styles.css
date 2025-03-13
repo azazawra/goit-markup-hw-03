@@ -218,7 +218,6 @@ a {text-decoration: none;}
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
 }
 
 .team-title {
@@ -233,52 +232,36 @@ a {text-decoration: none;}
     text-align: center;
 }
 
-.team-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 
 .team-item {
     background-color: #ffffff;
     text-align: center;
-    padding: 20px;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    padding-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(46, 47, 66, 0.1),
+        0 4px 8px rgba(46, 47, 66, 0.1);
     width: calc((100% - 72px) / 4);
-    /* Применение требуемой ширины */
+    max-width: 264px;
 }
 
-.team-item-1 {
-    border-radius: 0px 0px 4px 4px;
-}
+.team {
+        background-color: #f4f4fd;
+        padding: 120px 0;
+        text-align: center;
+    }
 
-.team-info {
-    padding: 32px 0;
-}
 
-.team-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-    text-align: center;
-}
-
-.team-role {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    margin-top: 4px;
-    text-align: center;
-}
-
+.team-list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+     
+    
 /*--------------------------------------------------------section4----------------------------------------------------*/
 
 .portfolio {
