@@ -279,9 +279,10 @@ margin-right:auto;}
     
 }
 .portfolio-item {
-    
     border-top: none;
     width: calc((100% - 48px) / 3);
+    max-width: 360px;
+    min-width: 280;
                  
     }
 
