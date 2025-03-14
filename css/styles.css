@@ -148,7 +148,7 @@ margin-right:auto;}
 
 .section-2{
     padding: 120px 0;
-    }
+}
  
 
  .features-list {
@@ -157,9 +157,10 @@ margin-right:auto;}
      list-style: none;
      margin: 0;
      padding:0;
-   }
-.feature-item {
-flex-basis: calc((100% - 3 * 24px) / 4);  
+       }
+
+       .feature-item {
+
 }
 .feature-title {
         font-weight: 700;
@@ -172,13 +173,13 @@ flex-basis: calc((100% - 3 * 24px) / 4);
     }
 
 
-
 .feature-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+   
 }
 
 .visually-hidden {
