@@ -258,6 +258,8 @@ flex-basis: calc((100%-3*24px)/4);
     color: #2e2f42;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-list {
@@ -288,7 +290,8 @@ flex-basis: calc((100%-3*24px)/4);
 
 .portfolio-title {
     margin-bottom: 8px;  
-      
+    padding-top: 32px;
+    padding-left: 16px;
    
 }
 
