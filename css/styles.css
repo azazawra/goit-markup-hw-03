@@ -112,8 +112,6 @@ a {text-decoration: none;}
     flex-direction: column;
     
 }
-
-
 .section-title {
     font-size: 56px;
     line-height: 1.07;
@@ -122,10 +120,9 @@ a {text-decoration: none;}
     color: #ffffff;
     max-width: 496px;
     margin-bottom: 64px;}
-    
+        
 .order-serv-btn {
-    display: inline-block;
-        min-width: 169px;
+         min-width: 169px;
         height: 56px;
         background-color: #4d5ae5;
         color: #ffffff;
@@ -136,6 +133,7 @@ a {text-decoration: none;}
         border: none;
         border-radius: 4px;
         cursor: pointer;
+        display: block;
     }
 .order-serv-btn:hover,
 .order-serv-btn:focus {
