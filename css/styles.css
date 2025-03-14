@@ -250,16 +250,17 @@ flex-basis: calc((100%-3*24px)/4);
     
 /*--------------------------------------------------------section4----------------------------------------------------*/
 
-#section-4 {
-    padding: 120px 0;
-}
+
+
 .portfolio-4 {
-        color: #2e2f42;
+             color: #2e2f42;
         width: 100%;
         text-align: center;
+        padding: 120px 0;
 }
 
 .portfolio {
+    margin: bottom 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -290,7 +291,6 @@ flex-basis: calc((100%-3*24px)/4);
     padding-left: 6px;
     padding-top:64px;
     padding: 32px 16px
-    
     border-top: 0;
 
 }
