@@ -186,6 +186,8 @@ margin-right:auto;}
 }
 
 .visually-hidden {
+
+margin-bottom: 8px
     position: absolute;
     width: 1px;
     height: 1px;
