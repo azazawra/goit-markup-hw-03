@@ -315,6 +315,9 @@ a {text-decoration: none;}
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    padding-left: 16px;
+    padding-top: 32px;
+    
    
 }
 
@@ -323,6 +326,7 @@ a {text-decoration: none;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-left: 16px;
 }
 /*--------------------------------------------------footer-----------------------------*/
 .contacts {font-style: normal;}     
