@@ -161,7 +161,10 @@ a {text-decoration: none;}
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        margin-bottom: 8px;}
+        margin-bottom: 8px;
+        width: calc((100% - 72px) / 4);
+    }
+
 
 .feature-text {
     font-weight: 400;
@@ -339,7 +342,7 @@ a {text-decoration: none;}
 }
 
 .footer-logo {
-    display: block;
+        display: inline-block
    }
 .footer-text {
     max-width: 264px;
