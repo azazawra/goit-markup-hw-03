@@ -159,9 +159,10 @@ margin-right:auto;}
      padding:0;
            }
 
-      .future-item{
-        width calc((100% - 3 * 24px) / 4)
-      }
+      .feature-item{
+        width calc((100% - 3 * 24px) / 4);
+
+    }
 
 }
 .feature-title {
