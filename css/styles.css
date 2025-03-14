@@ -253,7 +253,12 @@ margin-right:auto;}
      
     
 /*--------------------------------------------------------section4----------------------------------------------------*/
-   
+  
+.portfolio-4{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio {    
     font-size: 36px;
     line-height: 1.11;
@@ -266,6 +271,7 @@ margin-right:auto;}
     margin-top: 127px;
     padding-top: 120px;
       
+
 }
 .portfolio-list {
     display: flex;
@@ -358,9 +364,3 @@ margin-right:auto;}
 .footer-logo {
         display: inline-block
    }
-.footer-text {
-    max-width: 264px;
-    color: #f4f4fd;
-    font-size: 16px;
-    line-height: 1.5;
-}
