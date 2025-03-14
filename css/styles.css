@@ -27,7 +27,7 @@ a {text-decoration: none;}
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;;
+    padding: 0 15px;
 
 }
 
@@ -147,7 +147,7 @@ margin-right:auto;}
 
 /*   SECTION 2 -----------------------------------------------------------------------SECTION 2----------------------*/
 
-.seсtion-2{
+.section-2{
     padding: 120px 0;
 }
  
@@ -160,7 +160,6 @@ margin-right:auto;}
            }
 .feature-item{
         width: calc((100% - 3 * 24px) / 4);
-
     }
 .feature-title {
         font-weight: 700;
@@ -312,11 +311,9 @@ margin-right:auto;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-left: 16px;
     
     
-
-   
+       
 }
 /*--------------------------------------------------footer----------------------------------------*/
 .contacts {font-style: normal;}     
